@@ -1,0 +1,49 @@
+* {
+  font-family: arial;
+}
+
+
+/* SIZES and DISPLAY */
+#profile {
+  height: 70px;
+  width: 70px;
+}
+
+#view-more {
+
+}
+
+.hide {
+  display: none;
+}
+
+/* flexbox */
+.flexbox_user {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+
+/* position */
+.flexbox_user_name {
+  width: 170px;
+  margin-left: 5%;
+}
+
+.flexbox_user_gender_age {
+  margin-left: 10%;
+}
+
+.flexbox_user_relationship {
+
+}
+
+.flexbox_user_details_button {
+  margin-left: auto;
+  height: 30px;
+  width: 30px;
+  border-style: solid;
+  border-radius: 20px;
+  border-width: thin;
+  border-color: grey;
+}
